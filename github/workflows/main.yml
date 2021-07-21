@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ${{ secrets.vps4_locaweb }}
-        username: ${{ secrets.datapix_user }}
-        password: ${{ secrets.datapix_password }}
+        server: ${{ secrets.VPS4_LOCAWEB }}
+        username: ${{ secrets.DATAPIX_USER }}
+        password: ${{ secrets.DATAPIX_PASSWORD }}
         server-dir: public_html/
