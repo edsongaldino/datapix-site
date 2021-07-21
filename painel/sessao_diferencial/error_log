@@ -1,0 +1,4 @@
+[20-Apr-2018 14:04:00 UTC] PHP Warning:  require_once(../ferramenta/configuracoes.php): failed to open stream: No such file or directory in /home/datapixcom/public_html/painel/sistema_mod_include.php on line 3
+[20-Apr-2018 14:04:00 UTC] PHP Fatal error:  require_once(): Failed opening required '../ferramenta/configuracoes.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/datapixcom/public_html/painel/sistema_mod_include.php on line 3
+[20-Apr-2018 14:08:20 UTC] PHP Warning:  require_once(../ferramenta/configuracoes.php): failed to open stream: No such file or directory in /home/datapixcom/public_html/painel/sistema_mod_include.php on line 3
+[20-Apr-2018 14:08:20 UTC] PHP Fatal error:  require_once(): Failed opening required '../ferramenta/configuracoes.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/datapixcom/public_html/painel/sistema_mod_include.php on line 3

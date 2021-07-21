@@ -1,0 +1,5 @@
+[06-Apr-2018 09:16:52 America/Cuiaba] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'melloebo_site.revendedor' doesn't exist' in /home/melloeborgesadvo/public_html/painel/sessao_revendedor/gerenciar_revendedores.php:29
+Stack trace:
+#0 /home/melloeborgesadvo/public_html/painel/sessao_revendedor/gerenciar_revendedores.php(29): PDO->query('SELECT codigo_r...')
+#1 {main}
+  thrown in /home/melloeborgesadvo/public_html/painel/sessao_revendedor/gerenciar_revendedores.php on line 29

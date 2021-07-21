@@ -1,0 +1,10 @@
+[28-Mar-2018 08:43:40 America/Cuiaba] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ortobelc_site.produtos' doesn't exist' in /home/ortobelcolchoes/public_html/painel/sessao_produto/alterar_produto.php:10
+Stack trace:
+#0 /home/ortobelcolchoes/public_html/painel/sessao_produto/alterar_produto.php(10): PDO->query('SELECT nome, de...')
+#1 {main}
+  thrown in /home/ortobelcolchoes/public_html/painel/sessao_produto/alterar_produto.php on line 10
+[06-Apr-2018 09:16:47 America/Cuiaba] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'melloebo_site.produto' doesn't exist' in /home/melloeborgesadvo/public_html/painel/sessao_produto/gerenciar_produtos.php:32
+Stack trace:
+#0 /home/melloeborgesadvo/public_html/painel/sessao_produto/gerenciar_produtos.php(32): PDO->query('SELECT produto....')
+#1 {main}
+  thrown in /home/melloeborgesadvo/public_html/painel/sessao_produto/gerenciar_produtos.php on line 32
