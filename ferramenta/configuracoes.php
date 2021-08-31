@@ -1,9 +1,9 @@
 <?php
 // informações do banco de dados (SITE)
-define("BD_HOST","datapix.com.br");
-define("BD_USUARIO","datapixc_site");
-define("BD_SENHA",'PQpK$Ta8BcGC');//Senha do BD Mello e Borges
-define("BD_BANCO","datapixc_site");
+define("BD_HOST","datapix.mysql.dbaas.com.br");
+define("BD_USUARIO","datapix");
+define("BD_SENHA",'Web@259864');//Senha do BD Mello e Borges
+define("BD_BANCO","datapix");
 
 // informações do painel
 define("TITULO_OFF","Datapix Tecnologia");
