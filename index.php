@@ -42,7 +42,7 @@ $noticias = $resultado_noticias->fetchAll( PDO::FETCH_ASSOC );
             </a>
         </div> 
 
-        <div class="phone-group phone-group-mobile hidden-xs"><span class="glyphicon glyphicon-earphone"></span> +55 (65) 3927 5480<br/>+55 (65) 99603 0422</div>
+        <div class="phone-group phone-group-mobile hidden-xs"><span class="glyphicon glyphicon-earphone"></span> (65) 99603-0422</div>
         <div class="phone-group phone-group-mobile visible-xs"><span class="glyphicon glyphicon-earphone"></span> <a href="tel:+556539275480">+55 (65) 3927 5480</a><br/><a href="tel:+5565996030422">+55 (65) 99603 0422</a></div>
 
         <div class="navbar-menu navbar-collapse collapse">
@@ -227,7 +227,7 @@ em todo o Brasil</div>
 
     <footer>
         <div class="container">
-            <div class="footer-copyright text-center">&copy; 2010-2017<span class="hidden-xs">.</span><br class="visible-xs"/> Todos os direitos reservados.</div>
+            <div class="footer-copyright text-center">&copy; <?php echo date('Y'); ?><span class="hidden-xs">.</span><br class="visible-xs"/> Todos os direitos reservados.</div>
         </div>
     </footer>
 
